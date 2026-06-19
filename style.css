@@ -1,0 +1,281 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #fff;
+    background: url("background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    filter: drop-shadow(0 0 5px rgba(7, 20, 160, 0.5));
+}
+
+/* Navbar */
+.navbar a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #c611b4;
+}
+
+/* Main background with overlay */
+.main {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(7, 20, 160, 0.5), rgba(7, 20, 160, 0.5)),
+                url("background.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Home section */
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homecontent {
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homecontent h1 {
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px cyan;
+    margin-bottom: 20px;
+}
+
+.homecontent p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+
+/* Start button */
+.start-btn {
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #c611b4;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background: #1f141d;
+    transform: scale(1.05);
+}
+
+/* Popup info box */
+.popup-i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: #0c0a0a;
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+}
+
+/* Info text inside popup */
+.popup-i .info {
+    display: block;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Active popup state */
+.popup-i.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Buttons inside popup */
+.btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Exit button */
+.exit-btn {
+    background: #f0f1ef;
+    color: #000;
+}
+
+.exit-btn:hover {
+    background: #e91111;
+    color: #fff;
+}
+
+/* Continue button */
+.continue-btn {
+    background: #3422d4;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.continue-btn:hover {
+    background: #05f044;
+    color: #000;
+}
+
+/* First button special style */
+.popup-i .btn-group .info-btn:nth-child(1) {
+    background: transparent;
+    color: #c611b4;
+}
+
+.popup-i .btn-group .info-btn:nth-child(1):hover {
+    background: #c611b4;
+    color: #fff;
+}
+
+/* Quiz container */
+.quiz-container {
+    max-width: 600px;
+    margin: 120px auto;
+    background: rgba(161, 26, 26, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(211, 34, 34, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.quiz-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Option buttons */
+.option-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: #3422d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background: #05f044;
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* Leaderboard */
+.leaderboard {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.leaderboard li {
+    background: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leaderboard li strong {
+    color: #c611b4;
+}
+
+/* Restart button */
+.quiz-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #c611b4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.quiz-container button:hover {
+    background: #1f141d;
+    transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
