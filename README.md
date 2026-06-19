@@ -33,13 +33,13 @@ PROJECT DETAIL-
 
 
 # OUTPUT IMAGE :-
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
-![image text](
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output01.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output02.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output03.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output04.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output05.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output06.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output07.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output08.png)
+![image text](https://github.com/sandipkumarbhakat175-sudo/QUIZ-PLATFORM-WITH-LEADERBOARD/blob/966a9b7bd4d737699c6ddb7d631891d9e2a63f58/output09.png)
+
