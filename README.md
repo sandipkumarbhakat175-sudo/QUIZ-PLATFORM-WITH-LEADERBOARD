@@ -33,4 +33,13 @@ PROJECT DETAIL-
 
 
 # OUTPUT IMAGE :-
-![image-s
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
+![image text](
